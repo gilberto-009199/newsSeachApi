@@ -1,4 +1,6 @@
 <?php
+header('Content-Type: application/json; charset=utf-8');
+
 require("conf.php");
 
 $fonte= $_GET['sources'];
